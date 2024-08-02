@@ -8,7 +8,7 @@ import CarouselSlider from "../components/Carousel";
 
 const About = () => {
     return (
-        <div className="bg-black text-custom-white">
+        <div className="bg-black text-custom-white animate-fade-in-up">
             <Header />
             <div className="flex flex-col xl:flex-row pt-32 px-4">
                 <div className="md:w-8/12 mb-8 md:mb-0 md:ml-32">
@@ -62,12 +62,13 @@ const About = () => {
                                 d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 57.1c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-57.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"
                             />
                         </svg>
-                        <h1 className="text-lg md:text-xl mb-3">Eğitim</h1>
-                        <p className="text-sm md:text-base">
-                            Kırıkkale Üniversitesi Bilgisayar Mühendisliği Bölümünden 3.20 GPA
-                            / bölüm 3. lüğü ile mezun oldum
+                        <h1 className="text-lg md:text-3xl mb-3">Eğitim</h1>
+                        <p className="text-sm my-2 md:text-base">
+                            Kırıkkale Üniversitesi Bilgisayar Mühendisliği 
                         </p>
                         <p className="text-sm md:text-base">
+                            Bölümünden 3.20 GPA
+                            / bölüm 3. lüğü ile mezun oldum
                             Veri Yapıları ve Algoritmalar, Nesne Yönelimli Programlama,
                             Veritabanı Sistemleri, Yazılım Mühendisliği, Bilgisayar
                             Organizasyonu derslerini aldım.
@@ -84,8 +85,8 @@ const About = () => {
                                 d="M384 96l0 224L64 320 64 96l320 0zM64 32C28.7 32 0 60.7 0 96L0 320c0 35.3 28.7 64 64 64l117.3 0-10.7 32L96 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-74.7 0-10.7-32L384 384c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L64 32zm464 0c-26.5 0-48 21.5-48 48l0 352c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48l-64 0zm16 64l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm-16 80c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm32 160a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
                             />
                         </svg>
-                        <h1 className="text-lg md:text-xl mb-3">Beceriler</h1>
-                        <p className="text-sm md:text-base">Programlama</p>
+                        <h1 className="text-lg md:text-3xl mb-3">Beceriler</h1>
+                        <p className="text-sm my-2 md:text-base">Programlama</p>
                         <p className="text-sm md:text-base">
                             JavaScript, TypeScript, React, NodeJS, NextJS, Tailwind CSS, Git,
                             MsSQL
@@ -104,7 +105,7 @@ const About = () => {
                         </svg>
 
                         <h1 className="text-xl md:text-2xl mb-3">Popupsmart</h1>
-                        <p className="text-base">Full-Stack Developer Intern</p>
+                        <p className="text-base my-2">Full-Stack Developer Intern</p>
                         <p className="text-base">
                             Şirketin versiyon geçişinde yardımcı oldum ve pop-up yazılımına
                             dayalı deneyim kazandım. JavaScript'te dinamik yazım deneyimi ve
@@ -124,7 +125,7 @@ const About = () => {
                             />
                         </svg>
                         <h1 className="text-xl md:text-2xl mb-3">Limak Technology</h1>
-                        <p className="text-base">Front-End Developer Intern</p>
+                        <p className="text-base my-2">Front-End Developer Intern</p>
                         <p className="text-base">
                             React ile ön yüz geliştirme üzerine odaklandım ve dinamik
                             bileşenlerle web sitesi sayfaları oluşturdum.
@@ -197,6 +198,25 @@ const About = () => {
 
             <div className="">
                 <CarouselSlider />
+            </div>
+
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 w-8/12 mx-auto my-12 syne-header">
+                {/* Soldaki Div */}
+                <div className="text-custom-white flex flex-col justify-center items-start px-8 xl:py-6">
+                    <p className="text-lg">Detayları dikkate alarak</p>
+                    <p className="text-lg">güçlü web tasarımı</p>
+                    <p className="text-lg">kişiye özel geliştirme.</p>
+                </div>
+
+                {/* Sağdaki Div */}
+                <div className=" text-custom-white flex flex-col justify-center items-start px-8 xl:py-6">
+                    <p className="text-lg">
+                        Her proje için 'sıfırdan' tasarımlı, etkili ve estetik bir web siteleri.
+                    </p>
+                    <p className="text-lg">
+                        Yüksek performans ve en güncel framework kullanımı
+                    </p>
+                </div>
             </div>
 
 

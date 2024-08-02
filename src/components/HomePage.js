@@ -77,7 +77,6 @@ const HomePage = () => {
         </div>
       </div>
 
-
       <main className="flex flex-col md:flex-row justify-evenly h-full pt-8 md:pt-16 text-custom-white syne-header gap-y-6 md:gap-y-9">
         <div className="w-full px-4 md:w-1/3">
           <div className="text-custom-white syne-header">
@@ -106,8 +105,15 @@ const HomePage = () => {
 
       <h1 className="text-3xl md:text-5xl text-custom-white syne-header mt-16 md:mt-32 px-4 md:px-10 w-full md:w-4/5 flex items-center space-x-2">
         <span>Projeler</span>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className="w-6 h-6">
-          <path fill="#ffffff" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512"
+          className="w-6 h-6"
+        >
+          <path
+            fill="#ffffff"
+            d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+          />
         </svg>
       </h1>
 

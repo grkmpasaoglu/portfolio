@@ -118,7 +118,6 @@ code {
 }
 
 @keyframes words {
-
   0%,
   20% {
     content: "DEVELOPER";
@@ -146,7 +145,6 @@ code {
 }
 
 @keyframes typing {
-
   10%,
   15%,
   30%,
