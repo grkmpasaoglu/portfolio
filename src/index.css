@@ -36,7 +36,7 @@ code {
 }
 
 /* Mobil ekranlar için stil ayarları */
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   .syne-font {
     font-size: 100px;
     letter-spacing: -10px;
@@ -44,10 +44,10 @@ code {
 }
 
 /* Bilgisayar ekranları için stil ayarları */
-@media (min-width: 641px) {
+@media (min-width: 1024px) {
   .syne-font {
-    font-size: 300px;
-    letter-spacing: -30px;
+    font-size: 250px;
+    letter-spacing: -25px;
   }
 }
 

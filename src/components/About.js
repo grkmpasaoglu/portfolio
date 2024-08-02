@@ -2,6 +2,9 @@ import React from "react";
 import "../App.css";
 import Header from "./Header";
 import Footer from "./Footer";
+import { Carousel } from "antd";
+import CarouselSlider from "../components/Carousel";
+
 
 const About = () => {
     return (
@@ -129,6 +132,74 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="scrolling-container mt-8 mb-4 xl:mb-40">
+                <div className="scrolling-text text-9xl syne-font text-custom-white">
+                    <div>
+                        GORKEM PASAOGLU GORKEM PASAOGLU GORKEM PASAOGLU GORKEM PASAOGLU GORKEM PASAOGLU GORKEM PASAOGLU GORKEM PASAOGLU GORKEM PASAOGLU
+                    </div>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-4 w-11/12 mx-auto my-12">
+                {/* Soldaki Div */}
+                <div className="order-2 md:order-1 xl:h-96 text-custom-white flex flex-col justify-center items-start px-8 xl:py-6">
+                    <h1 className="text-4xl md:text-6xl mb-4 font-bold leading-tight">
+                        <p>UI & UX</p>
+                        <p>DESIGN</p>
+                    </h1>
+                    <h2 className="text-3xl md:text-5xl font-semibold">
+                        FULLY RESPONSIVE
+                    </h2>
+                </div>
+
+                {/* Sağdaki Div */}
+                <div className="order-1 md:order-2 h-96 flex items-center justify-center px-4">
+                    <div className="w-full max-w-screen-lg">
+                        <Carousel
+                            autoplay
+                            dots={false}
+                            speed={2000}
+                            className="w-full h-full"
+                        >
+                            <div className="flex justify-center items-center h-full">
+                                <img
+                                    src="/imgs/3rm.png"
+                                    alt="responsive designs"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            <div className="flex justify-center items-center h-full">
+                                <img
+                                    src="/imgs/2rm.png"
+                                    alt="responsive designs"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            <div className="flex justify-center items-center h-full">
+                                <img
+                                    src="/imgs/1rm.png"
+                                    alt="responsive designs"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </Carousel>
+                    </div>
+                </div>
+            </div>
+
+            <h1 className="text-3xl md:text-5xl text-custom-white syne-header mt-16 md:mt-32 px-4 md:px-10 w-full md:w-4/5 flex items-center space-x-2">
+                <span>Projeler</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className="w-6 h-6">
+                    <path fill="#ffffff" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                </svg>
+            </h1>
+
+            <div className="">
+                <CarouselSlider />
+            </div>
+
+
             <Footer />
         </div>
     );

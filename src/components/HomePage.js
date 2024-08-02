@@ -27,20 +27,20 @@ const HomePage = () => {
         </main>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 w-11/12 mx-auto my-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-11/12 mx-auto my-12">
         {/* Soldaki Div */}
-        <div className="h-96 text-custom-white flex flex-col justify-center items-start px-8 py-6">
+        <div className="order-2 md:order-1 h-96 text-custom-white flex flex-col justify-center items-start px-8 py-6">
           <h1 className="text-4xl md:text-6xl mb-4 font-bold leading-tight">
             <p>UI & UX</p>
             <p>DESIGN</p>
           </h1>
           <h2 className="text-3xl md:text-5xl font-semibold">
-            FULLY RESOINSIVE
+            FULLY RESPONSIVE
           </h2>
         </div>
 
         {/* Sağdaki Div */}
-        <div className="h-96 flex items-center justify-center px-4">
+        <div className="order-1 md:order-2 h-96 flex items-center justify-center px-4">
           <div className="w-full max-w-screen-lg">
             <Carousel
               autoplay
@@ -76,6 +76,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+
 
       <main className="flex flex-col md:flex-row justify-evenly h-full pt-8 md:pt-16 text-custom-white syne-header gap-y-6 md:gap-y-9">
         <div className="w-full px-4 md:w-1/3">
