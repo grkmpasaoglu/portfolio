@@ -6,7 +6,7 @@ const Carousel = () => {
   useEffect(() => {
     if (scrollRef.current) {
       const scrollElement = scrollRef.current;
-      const scrollAmount = scrollElement.scrollWidth * 0.1;
+      const scrollAmount = scrollElement.scrollWidth * 0.04;
       scrollElement.scrollLeft = scrollAmount;
     }
   }, []);
@@ -55,7 +55,7 @@ const Carousel = () => {
         <div className="text-custom-white syne-header h-96 rounded-md flex flex-col justify-center px-12 gap-y-7">
           <img src="/gifs/popup.gif" alt="Popupsmart Clone" />
           <div className="flex flex-row justify-between">
-            <h1 className="text-3xl font-bold">Popupsmart Clone</h1>
+            <h1 className="text-3xl font-bold">Popupsmart & Strapi Clone</h1>
             <h2 className="text-sm font-bold">Design & Clone</h2>
           </div>
         </div>

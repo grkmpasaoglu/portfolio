@@ -49,13 +49,13 @@ const Header = () => {
         </a>
         <div className="flex space-x-4">
           <HeaderDrop />
-          <a
+          {/* <a
             href="/about"
             className="relative inline-block text-custom-white text-sm xl:text-lg syne-header group"
           >
             HAKKIMDA
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-          </a>
+          </a> */}
         </div>
       </header>
     </div>
