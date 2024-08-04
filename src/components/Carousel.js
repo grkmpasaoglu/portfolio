@@ -11,7 +11,7 @@ const Carousel = () => {
 
       const handleWheel = (e) => {
         e.preventDefault();
-        scrollElement.scrollLeft += e.deltaY * 0.5; // Scroll hızını ayarlayabilirsin
+        scrollElement.scrollLeft += e.deltaY * 0.5;
       };
 
       scrollElement.addEventListener("wheel", handleWheel);
@@ -23,7 +23,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div ref={scrollRef} className="md:flex overflow-x-scroll mx-auto">
+    <div ref={scrollRef} className="md:flex overflow-x-scroll mx-auto w-11/12">
       <a
         href="https://github.com/grkmpasaoglu/pos-application"
         target="_blank"
