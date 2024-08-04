@@ -9,8 +9,8 @@ module.exports = {
       },
       keyframes: {
         underlineExpand: {
-          '0%': { transform: 'scaleX(0)' },
-          '100%': { transform: 'scaleX(1)' },
+          "0%": { transform: "scaleX(0)" },
+          "100%": { transform: "scaleX(1)" },
         },
         "fade-in-up": {
           "0%": {
@@ -24,7 +24,7 @@ module.exports = {
         },
       },
       animation: {
-        underlineExpand: 'underlineExpand 0.3s ease forwards',
+        underlineExpand: "underlineExpand 0.3s ease forwards",
         "fade-in-up": "fade-in-up 2s ease-out forwards", // Süreyi 2 saniye olarak değiştirdim
       },
     },

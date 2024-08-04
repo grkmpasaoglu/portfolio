@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Dropdown, Menu } from "antd";
+import { LanguageContext } from "../context/LanguageContext";
 
 const items = [
   {
@@ -81,16 +82,20 @@ const menu = (
   </Menu>
 );
 
-const HeaderDrop = () => (
-  <Dropdown overlay={menu} trigger={["click"]}>
-    <div
-      onClick={(e) => e.preventDefault()}
-      className="relative inline-block text-custom-white text-sm xl:text-lg syne-header group custom-dropdown-trigger"
-    >
-      ILETISIM
-      <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-    </div>
-  </Dropdown>
-);
+const HeaderDrop = () => {
+  const { language } = useContext(LanguageContext);
+
+  return (
+    <Dropdown overlay={menu} trigger={["click"]}>
+      <div
+        onClick={(e) => e.preventDefault()}
+        className="relative inline-block text-custom-white text-sm xl:text-lg syne-header group custom-dropdown-trigger"
+      >
+        {language === "TR" ? "ILETISIM" : "CONTACT"}
+        <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+      </div>
+    </Dropdown>
+  );
+};
 
 export default HeaderDrop;

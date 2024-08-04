@@ -4,18 +4,26 @@ const Carousel = () => {
   const scrollRef = useRef(null);
 
   useEffect(() => {
-    if (scrollRef.current) {
+    if (scrollRef.current && window.innerWidth >= 768) {
       const scrollElement = scrollRef.current;
       const scrollAmount = scrollElement.scrollWidth * 0.04;
       scrollElement.scrollLeft = scrollAmount;
+
+      const handleWheel = (e) => {
+        e.preventDefault();
+        scrollElement.scrollLeft += e.deltaY * 0.5; // Scroll hızını ayarlayabilirsin
+      };
+
+      scrollElement.addEventListener("wheel", handleWheel);
+
+      return () => {
+        scrollElement.removeEventListener("wheel", handleWheel);
+      };
     }
   }, []);
 
   return (
-    <div
-      ref={scrollRef}
-      className="md:flex overflow-x-scroll mx-auto"
-    >
+    <div ref={scrollRef} className="md:flex overflow-x-scroll mx-auto">
       <a
         href="https://github.com/grkmpasaoglu/pos-application"
         target="_blank"
