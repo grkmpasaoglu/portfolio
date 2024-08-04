@@ -20,7 +20,7 @@ const About = () => {
               <span></span>
             </h1>
           </div>
-          <div className="xl:w-4/12 mt-10 xl:mt-0 xl:mr-32 flex items-center justify-center">
+          <div className="xl:w-4/12 my-4 xl:mt-0 xl:mr-32 flex items-center justify-center">
             <img
               src="https://avatars.githubusercontent.com/u/101420814?v=4"
               alt="Gorkem's profile"
@@ -249,13 +249,17 @@ const About = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512"
-            className="w-6 h-6"
+            className="w-6 h-6 hidden xl:block"
           >
             <path
               fill="#ffffff"
               d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
             />
           </svg>
+
+          <svg className="w-8 h-6  block xl:hidden "
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#ffffff"
+              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" /></svg>
         </h1>
 
         <div className="">
