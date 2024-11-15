@@ -77,7 +77,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-11/12 mx-auto syne-header space-y-4 text-custom-white mt-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
             <div className="relative bg-gray-800 p-6 md:p-8 hover:-translate-y-2 transition-transform duration-300">
               <svg
                 className="absolute top-4 right-4 w-6 h-6 text-white"
@@ -185,6 +185,48 @@ const About = () => {
                   : "I focused on front-end development with React and created web pages using dynamic components."}
               </p>
             </div>
+
+            <div class="relative bg-gray-800 p-8 hover:-translate-y-2 transition-all duration-300">
+              <svg
+                class="absolute top-4 right-4 w-6 h-6 text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L48 0zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm112-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM80 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM272 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16z"
+                />
+              </svg>
+              <h1 className="text-xl md:text-2xl mb-3">
+                2C Bilgi Teknolojileri
+              </h1>
+              <p className="text-base my-2">React Developer</p>
+              <p className="text-base">
+                {language === "TR"
+                  ? "React ile ön yüz geliştirme üzerine odaklandım ve 'TURKCELL Dijital Dönüşüm', 'BOTAŞ Elektronik Bülten' ve 'Garanti Bankası Pusula' gibi projelerde yer aldım. Bu süreçte mikroservis mimarisi kullanarak react kodladım."
+                  : "I focused on front-end development with React and participated in projects such as TURKCELL Dijital Dönüşüm, BOTAŞ Elektronik Bülten, and Garanti Bankası Pusula. During this process, I developed React applications using microservices architecture."}
+              </p>
+            </div>
+
+            <div className="relative bg-gray-800 p-8 hover:-translate-y-2 transition-all duration-300">
+              <svg
+                className="absolute top-4 right-4 w-6 h-6 text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L48 0zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm112-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM80 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM272 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16z"
+                />
+              </svg>
+              <h1 className="text-xl md:text-2xl mb-3">Freelance</h1>
+              <p className="text-base my-2">React Developer</p>
+              <p className="text-base">
+                {language === "TR"
+                  ? "React ile çeşitli projelerde freelance olarak çalışıyorum. Farklı sektörlere ait projeler geliştirerek hem teknik becerilerimi hem de tasarım yeteneklerimi geliştirdim."
+                  : "I work as a freelance developer on various projects with React. I have enhanced my technical and design skills by developing projects across different industries."}
+              </p>
+            </div>
           </div>
         </div>
 
@@ -257,9 +299,16 @@ const About = () => {
             />
           </svg>
 
-          <svg className="w-8 h-6  block xl:hidden "
-            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#ffffff"
-              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" /></svg>
+          <svg
+            className="w-8 h-6  block xl:hidden "
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+          >
+            <path
+              fill="#ffffff"
+              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+            />
+          </svg>
         </h1>
 
         <div className="">
