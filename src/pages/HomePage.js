@@ -203,7 +203,7 @@ const About = () => {
               <p className="text-base my-2">React Developer</p>
               <p className="text-base">
                 {language === "TR"
-                  ? "React ile ön yüz geliştirme üzerine odaklandım ve 'TURKCELL Dijital Dönüşüm', 'BOTAŞ Elektronik Bülten' ve 'Garanti Bankası Pusula' gibi projelerde yer aldım. Bu süreçte mikroservis mimarisi kullanarak react kodladım."
+                  ? "React ile ön yüz geliştirme üzerine odaklandım ve 'TURKCELL Dijital Dönüşüm', 'BOTAŞ Elektronik Bülten' ve 'Garanti Bankası Pusula' gibi projelerde yer aldım. Bu süreçte mikroservis mimarisi kullanarak react kodladım. Ayrıca swagger ve scss gibi teknolojiler kullandım."
                   : "I focused on front-end development with React and participated in projects such as TURKCELL Dijital Dönüşüm, BOTAŞ Elektronik Bülten, and Garanti Bankası Pusula. During this process, I developed React applications using microservices architecture."}
               </p>
             </div>
