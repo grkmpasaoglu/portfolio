@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Dropdown, Menu } from "antd";
 import { LanguageContext } from "../context/LanguageContext";
+import { useTranslation } from "react-i18next";
 
 const items = [
   {
@@ -84,6 +85,7 @@ const menu = (
 
 const HeaderDrop = () => {
   const { language } = useContext(LanguageContext);
+  const { t, i18n } = useTranslation();
 
   return (
     <Dropdown overlay={menu} trigger={["click"]}>
@@ -91,7 +93,7 @@ const HeaderDrop = () => {
         onClick={(e) => e.preventDefault()}
         className="relative inline-block text-custom-white text-sm xl:text-lg syne-header group custom-dropdown-trigger"
       >
-        {language === "TR" ? "ILETISIM" : "CONTACT"}
+       {t('contact')}
         <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
       </div>
     </Dropdown>

@@ -1,0 +1,53 @@
+{
+  "intro": [
+    "I was born in Ankara in 1999.",
+    "I completed my primary and high school education here.",
+    "I graduated from Kırıkkale University, Department of Computer Engineering, with a GPA of 3.20 and ranked third in my department.",
+    "I gained experience in web development by interning at Limak Technology and Popupsmart companies.",
+    "I have worked in front-end and full-stack development and developed projects with dynamic APIs.",
+    "I have experience in areas such as JavaScript, React, TypeScript, NextJS, and Tailwind CSS."
+  ],
+  "education": {
+    "title": "Education",
+    "description": [
+      "Department of Computer Engineering, Kırıkkale University",
+      "I graduated with a GPA of 3.20 and ranked third in my department. I took courses in Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Software Engineering, and Computer Organization."
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "programming": "Programming",
+    "technologies": "JavaScript, TypeScript, React, NodeJS, NextJS, Tailwind CSS, Git, MsSQL"
+  },
+  "experiences": {
+    "popupsmart": {
+      "title": "Popupsmart",
+      "description": "I assisted in the company’s version transition and gained experience in pop-up software. I acquired experience in dynamic scripting in JavaScript and developing SEO-friendly, performance-oriented, and observable web applications."
+    },
+    "limak": {
+      "title": "Limak Technology",
+      "description": "I gained experience in web development by working with dynamic APIs during my internship. Contributed to teamwork in project management."
+    },
+    "2c": {
+      "title": "React Developer",
+      "description": "Focused on front-end development with React and participated in projects such as 'TURKCELL Digital Transformation,' 'BOTAŞ Electronic Bulletin,' and 'Garanti Bankası Pusula.' During this process, I developed React code using a microservices architecture and worked with technologies like Swagger and SCSS."
+    },
+    "freelance": {
+      "title": "React Developer",
+      "description": "I work on various projects as a freelance React developer. By developing projects in different industries, I improved both my technical skills and design abilities."
+    }
+  },
+
+  "projects": {
+    "title": "Projects",
+    "detailPhrase1": "Considering the details",
+    "detailPhrase2": "powerful web design",
+    "detailPhrase3": "and custom development.",
+    "descriptionPhrase1": "Custom-designed, effective, and aesthetic websites from scratch for each project.",
+    "descriptionPhrase2": "High performance and the latest frameworks."
+  },
+  "flags":{
+    "flag":"🇬🇧"
+  },
+  "contact":"CONTACT"
+}

@@ -1,0 +1,54 @@
+{
+    "intro": [
+      "1999 yılında Ankara'da doğdum.",
+      "İlokul ve lise eğitimimi burada tamamladım.",
+      "Kırıkkale Üniversitesi Bilgisayar Mühendisliği bölümünden 3.20 GPA ve bölüm üçüncülüğü ile mezun oldum.",
+      "Limak Technology ve Popupsmart firmalarında staj yaparak web geliştirme alanında deneyim kazandım.",
+      "Front-end ve full-stack geliştirme konularında çalıştım ve dinamik API'lerle projeler geliştirdim.",
+      "JavaScript, React, TypeScript, NextJS, Tailwind CSS gibi alanlarda deneyimlerim bulunmakta."
+    ],
+    "education": {
+      "title": "Eğitim",
+      "description": [
+        "Kırıkkale Üniversitesi Bilgisayar Mühendisliği",
+        "Bölümünden 3.20 GPA / bölüm 3. lüğü ile mezun oldum. Veri Yapıları ve Algoritmalar, Nesne Yönelimli Programlama, Veritabanı Sistemleri, Yazılım Mühendisliği, Bilgisayar Organizasyonu derslerini aldım."
+      ]
+    },
+    "skills": {
+      "title": "Beceriler",
+      "programming": "Programlama",
+      "technologies": "JavaScript, TypeScript, React, NodeJS, NextJS, Tailwind CSS, Git, MsSQL"
+    },
+    "experiences": {
+      "popupsmart": {
+        "title": "Popupsmart",
+        "description": "Şirketin versiyon geçişinde yardımcı oldum ve pop-up yazılımına dayalı deneyim kazandım. JavaScript'te dinamik yazım deneyimi ve SEO dostu, performans odaklı ve gözlemlenebilir web uygulamaları geliştirme deneyimi elde ettim."
+      },
+      "limak": {
+        "title": "Limak Teknoloji",
+        "description": "Web geliştirme alanında staj yaparak dinamik API'ler ile çalışma deneyimi elde ettim. Proje yönetiminde ekip çalışmasına katkıda bulundum."
+      },
+      "2c": {
+        "title": "React Developer",
+        "description": "React ile ön yüz geliştirme üzerine odaklandım ve 'TURKCELL Dijital Dönüşüm', 'BOTAŞ Elektronik Bülten' ve 'Garanti Bankası Pusula' gibi projelerde yer aldım. Bu süreçte mikroservis mimarisi kullanarak react kodladım. Ayrıca swagger ve scss gibi teknolojiler kullandım."
+      },
+      "freelance": {
+        "title": "React Developer",
+        "description": "React ile çeşitli projelerde freelance olarak çalışıyorum. Farklı sektörlere ait projeler geliştirerek hem teknik becerilerimi hem de tasarım yeteneklerimi geliştirdim."
+      }
+    },
+
+    "projects": {
+      "title": "Projeler",
+      "detailPhrase1": "Detayları dikkate alarak",
+      "detailPhrase2": "güçlü web tasarımı",
+      "detailPhrase3": "kişiye özel geliştirme.",
+      "descriptionPhrase1": "Her proje için 'sıfırdan' tasarımlı, etkili ve estetik web siteleri.",
+      "descriptionPhrase2": "Yüksek performans ve en güncel frameworkler."
+    },
+    "flags":{
+      "flag":"🇹🇷"
+    },
+    "contact":"ILETISIM"
+  }
+  
