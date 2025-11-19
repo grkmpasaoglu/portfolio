@@ -1,0 +1,132 @@
+{
+    "HomePage": {
+        "title": "Görkem Paşaoğlu",
+        "hero": {
+            "greeting": "Merhaba, Ben",
+            "name": "Görkem Paşaoğlu",
+            "role": "Bilgisayar Mühendisi & Frontend Geliştirici",
+            "roles": [
+                "Bilgisayar Mühendisi",
+                "Frontend Geliştirici",
+                "Web Tasarımcı"
+            ],
+            "bio": "1999 yılında Ankara'da doğdum. İlkokul ve lise eğitimimi burada tamamladım. Kırıkkale Üniversitesi Bilgisayar Mühendisliği bölümünden 3.20 GPA ve <bold>bölüm üçüncülüğü</bold> ile mezun oldum.",
+            "downloadCV": "CV İndir",
+            "education": {
+                "title": "Eğitim",
+                "school": "Kırıkkale Üniversitesi",
+                "department": "Bilgisayar Mühendisliği",
+                "details": "3.20 GPA / <bold>Bölüm 3.lüğü</bold>. Veri Yapıları, OOP, Veritabanı Sistemleri, Yazılım Mühendisliği dersleri alındı."
+            },
+            "skills": {
+                "title": "Yetenekler",
+                "list": "JavaScript, TypeScript, React, NodeJS, NextJS, Tailwind CSS, Git, MsSQL"
+            }
+        },
+        "nav": {
+            "home": "Anasayfa",
+            "experience": "Deneyim",
+            "projects": "Projeler",
+            "contact": "İletişim"
+        },
+        "experience": {
+            "title": "Deneyim",
+            "items": {
+                "carna": {
+                    "role": "Frontend Developer",
+                    "company": "Carna Digital",
+                    "period": "2024 - Devam Ediyor",
+                    "description": "Carna Digital bünyesinde Frontend Developer olarak görev alıyorum. Büyük ölçekli projelerin geliştirilmesinde aktif rol oynayarak, modern web teknolojileri ile kullanıcı odaklı, yüksek performanslı ve ölçeklenebilir arayüzler inşa ediyorum. Native teknolojiler ve gerektiğinde Node.js ile backend süreçlerine de katkı sağlayarak, uçtan uca çözümler üretiyorum."
+                },
+                "freelance": {
+                    "role": "React Developer",
+                    "company": "Freelance",
+                    "period": "Günümüz",
+                    "description": "React ile çeşitli projelerde freelance olarak çalışıyorum. Farklı sektörlere ait projeler geliştirerek hem teknik becerilerimi hem de tasarım yeteneklerimi geliştirdim."
+                },
+                "twoc": {
+                    "role": "React Developer",
+                    "company": "2C Bilgi Teknolojileri",
+                    "period": "2023 - 2024",
+                    "description": "React ile ön yüz geliştirme üzerine odaklandım. 'TURKCELL Dijital Dönüşüm', 'BOTAŞ Elektronik Bülten' ve 'Garanti Bankası Pusula' gibi projelerde yer aldım. Mikroservis mimarisi, Swagger ve SCSS kullandım."
+                },
+                "popupsmart": {
+                    "role": "Full-Stack Developer Intern",
+                    "company": "Popupsmart",
+                    "period": "Staj",
+                    "description": "Şirketin versiyon geçişinde yardımcı oldum. JavaScript'te dinamik yazım, SEO dostu ve performans odaklı web uygulamaları geliştirme deneyimi kazandım."
+                },
+                "limak": {
+                    "role": "Front-End Developer Intern",
+                    "company": "Limak Technology",
+                    "period": "Staj",
+                    "description": "React ile ön yüz geliştirme üzerine odaklandım ve dinamik bileşenlerle web sitesi sayfaları oluşturdum."
+                }
+            }
+        },
+        "projects": {
+            "title": "Projeler"
+        },
+        "responsive": {
+            "title": "Tamamen Responsive Tasarım",
+            "description": "Geliştirdiğim her proje, mobil telefonlardan masaüstü bilgisayarlara kadar tüm cihazlarda kusursuz bir deneyim sunacak şekilde tasarlanmıştır.",
+            "desktop": "Masaüstü Optimize",
+            "desktopDesc": "Geniş ekranlardan yararlanan, optimize edilmiş boşluk, tipografi ve interaktif elementlerle sürükleyici bir masaüstü deneyimi sunan tasarımlar.",
+            "mobile": "Mobil Öncelikli",
+            "mobileDesc": "Sezgisel navigasyon ile dokunmatik dostu arayüzler, her boyuttaki akıllı telefon ve tablette mükemmel kullanılabilirlik sağlar.",
+            "bottomText": "Responsive tasarım sadece bir özellik değil—tüm çalışmalarımda temel bir prensiptir ve her kullanıcı için erişilebilirlik ve kullanılabilirlik sağlar."
+        },
+        "performance": {
+            "title": "Performans & SEO Mükemmelliği",
+            "description": "Geliştirdiğim her projede web performansı, erişilebilirlik ve SEO en iyi uygulamalarına öncelik veriyorum. İşte son projelerimden birinin Google Lighthouse puanları.",
+            "cardTitle": "Lighthouse Metrikleri",
+            "cardDescription": "Bu puanlar, yüksek performanslı web uygulamaları geliştirme taahhüdümü yansıtıyor. Her metrik, modern web geliştirmenin kritik bir yönünü temsil eder: hızlı yüklenme süreleri, erişilebilir arayüzler, sektör en iyi uygulamaları ve arama motoru optimizasyonu.",
+            "bottomText": "Yüksek Lighthouse puanları elde etmek, hızlı, erişilebilir ve SEO açısından optimize edilmiş, olağanüstü kullanıcı deneyimleri sunan web uygulamaları geliştirme taahhüdümü gösterir."
+        },
+        "gsapCTA": {
+            "badge": "İnteraktif Animasyonlar",
+            "title": "Peki GSAP ile neler yapabildiğimi biliyor musunuz?",
+            "description": "Scroll-triggered efektler, akıcı geçişler ve yaratıcı etkileşimlerle gelişmiş animasyon yeteneklerimi keşfedin.",
+            "buttonText": "Sihri Göster"
+        },
+        "footer": {
+            "copyright": "Tüm hakları saklıdır."
+        }
+    },
+    "GsapPage": {
+        "back": "Geri",
+        "zoomTitle": "GSAP",
+        "scrollToExplore": "Keşfetmek İçin Kaydır",
+        "marquee": "Kaydır • Canlandır • Etkileşim • Etkile",
+        "step1Title": "Responsive Tasarım",
+        "step1Desc": "Tüm cihazlarda kusursuz bir şekilde uyum sağlayan, mobil-öncelikli, piksel-mükemmel arayüzler oluşturuyorum. Her eleman, optimal görüntüleme deneyimi sağlamak için özenle tasarlanmıştır.",
+        "step2Title": "Performans Optimizasyonu",
+        "step2Desc": "Hızlı yüklenme süreleri ve akıcı animasyonlar için en iyi uygulamaları uyguluyorum. Kod parçalama, lazy loading ve verimli asset yönetimi ile yüksek Lighthouse puanları elde ediyorum.",
+        "step3Title": "İnteraktif Animasyonlar",
+        "step3Desc": "GSAP destekli animasyonlarla tasarımları hayata geçiriyorum. İnce mikro-etkileşimlerden kullanıcıları meşgul eden ve memnun eden cesur scroll-triggered efektlere kadar.",
+        "cardsTitle": "GSAP Yetenekleri",
+        "cardsSubtitle": "GSAP'i web animasyonlarında endüstri standardı yapan özellikleri keşfedin.",
+        "card1Title": "Scroll-Triggered Animasyonlar",
+        "card1Desc": "Kullanıcının scroll pozisyonuna yanıt veren çarpıcı animasyonlar oluşturun. Hikaye anlatımı ve ziyaretçileri içeriğiniz boyunca yönlendiren etkileyici kullanıcı deneyimleri için mükemmel.",
+        "card2Title": "Zaman Çizgisi Kontrolu",
+        "card2Desc": "Karmaşık animasyon dizilerini hassas zamanlamayla yönetin. Birden fazla animasyonu zincirleyin, oynatmayı kontrol edin ve kolaylıkla sinematik efektler yaratın.",
+        "card3Title": "3D Dönüşümler & Parallax",
+        "card3Desc": "3D döndürmeler, perspektif efektleri ve çok katmanlı parallax kaydırma ile tasarımlarınıza derinlik katın. Öne çıkan sürükleyici deneyimler yaratın.",
+        "card4Title": "Performans Optimize",
+        "card4Desc": "GSAP performans için tasarlandı. Donanım hızlandırmalı animasyonlar 60fps'de çalışır, tüm cihazlar ve tarayıcılarda akıcı deneyimler sağlar.",
+        "viewMore": "Daha Fazla Gör",
+        "parallaxTitle": "GSAP Yetenekleri",
+        "parallaxDesc": "Web animasyonunda endüstri standardı olan GSAP'in güçlü özelliklerini keşfedin",
+        "morphTitle": "Şekil Dönüşümü",
+        "morphDesc": "SVG şekillerin scroll ile yumuşak dönüşümünü ve renk geçişlerini izleyin",
+        "ctaLabel": "İletişime Geç",
+        "ctaTitle": "İşbirliğine hazır mısınız?",
+        "ctaSubtitle": "Birlikte",
+        "ctaHighlight": "harika şeyler yaratalım.",
+        "rainTitle": "Dijital Yağmur",
+        "rainSubtitle": "Yaratıcılığın akışını deneyimleyin",
+        "particleInitial": "BUNA BAK",
+        "particleFinal": "ETKİLEYİCİ, DEĞİL Mİ?",
+        "backToPortfolio": "Portfolyoya Dön"
+    }
+}

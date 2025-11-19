@@ -1,0 +1,137 @@
+{
+    "HomePage": {
+        "title": "Gorkem Pasaoglu",
+        "hero": {
+            "greeting": "Hello, I'm",
+            "name": "Gorkem Pasaoglu",
+            "role": "Computer Engineer & Frontend Developer",
+            "roles": [
+                "Computer Engineer",
+                "Frontend Developer",
+                "Web Designer"
+            ],
+            "bio": "Born in Ankara in 1999. Graduated from Kırıkkale University Computer Engineering department with a 3.20 GPA, <bold>ranking 3rd in the department</bold>.",
+            "downloadCV": "Download CV",
+            "education": {
+                "title": "Education",
+                "school": "Kırıkkale University",
+                "department": "Computer Engineering",
+                "details": "3.20 GPA / <bold>3rd in Dept</bold>. Coursework: Data Structures, OOP, Database Systems, Software Engineering."
+            },
+            "skills": {
+                "title": "Skills",
+                "list": "JavaScript, TypeScript, React, NodeJS, NextJS, Tailwind CSS, Git, MsSQL"
+            }
+        },
+        "nav": {
+            "home": "Home",
+            "experience": "Experience",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "experience": {
+            "title": "Experience",
+            "items": {
+                "carna": {
+                    "role": "Frontend Developer",
+                    "company": "Carna Digital",
+                    "period": "2024 - Present",
+                    "description": "I work as a Frontend Developer at Carna Digital. I play an active role in the development of large-scale projects, building user-centric, high-performance, and scalable interfaces using modern web technologies. I also contribute to backend processes with native technologies and Node.js when necessary, delivering end-to-end solutions."
+                },
+                "freelance": {
+                    "role": "React Developer",
+                    "company": "Freelance",
+                    "period": "Present",
+                    "description": "Working as a freelance React developer on various projects. Enhancing both technical and design skills across different sectors."
+                },
+                "twoc": {
+                    "role": "React Developer",
+                    "company": "2C Information Technologies",
+                    "period": "2023 - 2024",
+                    "description": "Focused on frontend development with React. Participated in 'TURKCELL Digital Transformation', 'BOTAŞ Electronic Bulletin', and 'Garanti Bank Compass' projects. Used microservices architecture, Swagger, and SCSS."
+                },
+                "popupsmart": {
+                    "role": "Full-Stack Developer Intern",
+                    "company": "Popupsmart",
+                    "period": "Internship",
+                    "description": "Assisted in version migration. Gained experience in dynamic JavaScript typing, SEO-friendly, performance-oriented, and observable web application development."
+                },
+                "limak": {
+                    "role": "Front-End Developer Intern",
+                    "company": "Limak Technology",
+                    "period": "Internship",
+                    "description": "Focused on frontend development with React and created web pages with dynamic components."
+                }
+            }
+        },
+        "projects": {
+            "title": "Projects"
+        },
+        "responsive": {
+            "title": "Fully Responsive Design",
+            "description": "Every project I build is crafted to deliver a seamless experience across all devices—from mobile phones to desktop computers.",
+            "desktop": "Desktop Optimized",
+            "desktopDesc": "Layouts that leverage large screens with optimized spacing, typography, and interactive elements for an immersive desktop experience.",
+            "mobile": "Mobile First",
+            "mobileDesc": "Touch-friendly interfaces with intuitive navigation, ensuring perfect usability on smartphones and tablets of all sizes.",
+            "bottomText": "Responsive design is not just a feature—it's a fundamental principle in all my work, ensuring accessibility and usability for every user."
+        },
+        "performance": {
+            "title": "Performance & SEO Excellence",
+            "description": "I prioritize web performance, accessibility, and SEO best practices in every project I build. Here are the Google Lighthouse scores from one of my recent projects.",
+            "cardTitle": "Lighthouse Metrics",
+            "cardDescription": "These scores reflect my commitment to building high-performance web applications. Each metric represents a critical aspect of modern web development: fast loading times, accessible interfaces, industry best practices, and search engine optimization.",
+            "bottomText": "Achieving high Lighthouse scores demonstrates my commitment to building fast, accessible, and SEO-optimized web applications that deliver exceptional user experiences."
+        },
+        "gsapCTA": {
+            "badge": "Interactive Animations",
+            "title": "Want to see what I can do with GSAP?",
+            "description": "Explore my advanced animation capabilities with scroll-triggered effects, smooth transitions, and creative interactions.",
+            "buttonText": "Show Me The Magic"
+        },
+        "footer": {
+            "copyright": "All rights reserved."
+        }
+    },
+    "GsapPage": {
+        "back": "Back",
+        "zoomTitle": "GSAP",
+        "scrollToExplore": "Scroll to Explore",
+        "marquee": "Scroll • Animate • Interact • Impress",
+        "reveal1": "Smooth Animations",
+        "reveal2": "Creative Effects",
+        "reveal3": "WOW FACTOR",
+        "step1Title": "Responsive Design",
+        "step1Desc": "Creating pixel-perfect, mobile-first interfaces that adapt seamlessly across all devices. Every element is carefully crafted to provide an optimal viewing experience.",
+        "step2Title": "Performance Optimization",
+        "step2Desc": "Implementing best practices for fast load times and smooth animations. Achieving high Lighthouse scores through code splitting, lazy loading, and efficient asset management.",
+        "step3Title": "Interactive Animations",
+        "step3Desc": "Bringing designs to life with GSAP-powered animations. From subtle micro-interactions to bold scroll-triggered effects that engage and delight users.",
+        "cardsTitle": "GSAP Capabilities",
+        "cardsSubtitle": "Discover what makes GSAP the industry standard for web animations.",
+        "card1Title": "Scroll-Triggered Animations",
+        "card1Desc": "Create stunning animations that respond to user scroll position. Perfect for storytelling and creating engaging user experiences that guide visitors through your content.",
+        "card2Title": "Timeline Control",
+        "card2Desc": "Orchestrate complex animation sequences with precise timing. Chain multiple animations together, control playback, and create cinematic effects with ease.",
+        "card3Title": "3D Transforms & Parallax",
+        "card3Desc": "Add depth to your designs with 3D rotations, perspective effects, and multi-layered parallax scrolling. Create immersive experiences that stand out.",
+        "card4Title": "Performance Optimized",
+        "card4Desc": "GSAP is built for performance. Hardware-accelerated animations run at 60fps, ensuring smooth experiences across all devices and browsers.",
+        "viewMore": "View More",
+        "parallaxTitle": "GSAP Capabilities",
+        "parallaxDesc": "Explore the powerful features that make GSAP the industry standard for web animation",
+        "morphTitle": "Shape Morphing",
+        "morphDesc": "Watch as SVG shapes smoothly transform and colors blend with scroll-driven animations",
+        "ctaLabel": "Get in Touch",
+        "ctaTitle": "Ready to collaborate?",
+        "ctaSubtitle": "Let's create something",
+        "ctaHighlight": "amazing.",
+        "rainTitle": "Digital Rain",
+        "rainSubtitle": "Experience the flow of creativity",
+        "particleInitial": "WATCH THIS",
+        "particleFinal": "IMPRESSIVE, RIGHT?",
+        "finalTitle": "IMPRESSED?",
+        "finalDesc": "These are just a few examples of what I can create with GSAP. From subtle micro-interactions to bold cinematic effects, I bring websites to life with smooth, performant animations.",
+        "backToPortfolio": "Back to Portfolio"
+    }
+}
