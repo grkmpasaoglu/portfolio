@@ -65,7 +65,160 @@
             }
         },
         "projects": {
-            "title": "Projeler"
+            "title": "Projeler",
+            "items": {
+                "3d": {
+                    "title": "3D Otomotiv Vitrini",
+                    "description": "Gelişmiş GSAP animasyonları ve 3D modeller içeren, tamamen responsive bir otomotiv sunum web sitesi geliştirdim. Tüm cihazlarda sorunsuz bir şekilde uyum sağlayan sürükleyici, etkileşimli bir kullanıcı deneyimi oluşturmak için kaydırma tetiklemeli etkileşimler ve olay odaklı animasyonlar uyguladım.",
+                    "tech": [
+                        "React",
+                        "Three.js",
+                        "GSAP",
+                        "ScrollTrigger"
+                    ]
+                },
+                "botas": {
+                    "title": "BOTAŞ Elektronik Bülten Sistemi",
+                    "description": "Admin paneli mimarisinin kurulmasında ve backend uç noktalarıyla hatasız TypeScript entegrasyonunun sağlanmasında kilit rol oynadım. BOTAŞ elektronik bülten yönetim sistemi için sağlam, tip güvenli bir çözüm sundum.",
+                    "tech": [
+                        "React",
+                        "TypeScript",
+                        "SCSS",
+                        "Admin Dashboard"
+                    ]
+                },
+                "businness-island": {
+                    "title": "Business Island Emlak Platformu",
+                    "description": "Gelişmiş Framer Motion efektlerine sahip, tamamen responsive bir emlak sunum web sitesi oluşturdum. Üst düzey bir kullanıcı deneyimi sunmak için kartlar, tablolar, akordeonlar ve özel UI öğeleri içeren kapsamlı bir bileşen kütüphanesi uyguladım.",
+                    "tech": [
+                        "Next.js",
+                        "Tailwind CSS",
+                        "Framer Motion",
+                        "TypeScript"
+                    ]
+                },
+                "docusaurus": {
+                    "title": "Teknik Dokümantasyon Platformu",
+                    "description": "Docusaurus kullanarak kapsamlı bir proje dokümantasyon sitesi oluşturarak teknik dokümantasyon konusundaki uzmanlığımı gösterdim. Dokümantasyon yapısı, yol haritası oluşturma ve bilgi tabanı organizasyonu için en iyi uygulamaları belirledim.",
+                    "tech": [
+                        "Docusaurus",
+                        "React",
+                        "Markdown",
+                        "Documentation"
+                    ]
+                },
+                "luna": {
+                    "title": "Luna Yönetim Platformu",
+                    "description": "Admin paneli ve dashboard dahil olmak üzere tüm frontend mimarisini bağımsız olarak geliştirdim. Tüm API entegrasyonlarını uçtan uca yöneterek, tamamen işlevsel, üretime hazır bir yönetim arayüzü sundum.",
+                    "tech": [
+                        "React",
+                        "Node.js",
+                        "API Integration",
+                        "Dashboard"
+                    ]
+                },
+                "newsapp": {
+                    "title": "Haber & Dergi Mobil Uygulaması",
+                    "description": "React Native kullanarak çapraz platform bir haber ve dergi uygulaması geliştirdim. Mobil kullanıcılar için optimize edilmiş performans ve sezgisel navigasyon ile akıcı, native benzeri bir deneyim sundum.",
+                    "tech": [
+                        "React Native",
+                        "API Integration",
+                        "Mobile Development"
+                    ]
+                },
+                "old": {
+                    "title": "Kişisel Portfolyo (Eski)",
+                    "description": "Modern web geliştirme uygulamaları ve tasarım ilkelerindeki erken dönem uzmanlığımı sergileyen önceki portfolyo web sitemi bağımsız olarak tasarladım ve geliştirdim.",
+                    "tech": [
+                        "HTML5",
+                        "CSS3",
+                        "JavaScript",
+                        "Responsive Design"
+                    ]
+                },
+                "popupsmart": {
+                    "title": "Popupsmart Landing & Kimlik Doğrulama",
+                    "description": "Tam yanıt verme özelliği ve akıcı animasyonlarla ana sayfayı ve eksiksiz kimlik doğrulama akışını (giriş/kayıt) geliştirdim. İlgi çekici, dönüşüm odaklı bir kullanıcı deneyimi yaratmaya odaklandım.",
+                    "tech": [
+                        "React",
+                        "Redux",
+                        "Animations",
+                        "Responsive Design"
+                    ]
+                },
+                "pusula": {
+                    "title": "Garanti Bankası Pusula Platformu",
+                    "description": "Garanti Bankası'nın Pusula platformu için yüksek hacimli veri uç noktalarını ve API entegrasyonlarını yönettim. Büyük veri kümeleri ve karmaşık iş mantığı ile optimum performans sağlayan kullanıcı arayüzünü ve admin panelini geliştirdim.",
+                    "tech": [
+                        "React",
+                        "Microservices",
+                        "API Integration",
+                        "Admin Dashboard"
+                    ]
+                },
+                "realhub": {
+                    "title": "RealHub İnteraktif Platform",
+                    "description": "Gelişmiş animasyonlar için GSAP'den yararlanan son derece etkileşimli bir emlak arayüzü oluşturdum. Mülkleri sinematik görsel efektlerle sergileyen ilgi çekici, animasyon açısından zengin bir kullanıcı deneyimi sundum.",
+                    "tech": [
+                        "Next.js",
+                        "GSAP",
+                        "Prisma",
+                        "Animations"
+                    ]
+                },
+                "seuda": {
+                    "title": "Seuda E-Ticaret Platformu",
+                    "description": "Hem frontend geliştirme hem de API uç noktası entegrasyonunu ele alan eksiksiz bir e-ticaret çözümü mimarisi tasarladım. Ölçeklenebilir, sürdürülebilir bir alışveriş deneyimi sunmak için durum yönetimi için Redux uyguladım.",
+                    "tech": [
+                        "React",
+                        "Redux",
+                        "E-Commerce",
+                        "API Integration"
+                    ]
+                },
+                "sh": {
+                    "title": "Sağlık Forumu Platformu",
+                    "description": "Full-stack katılımla kapsamlı bir sağlık forumu platformu geliştirdim. Kesintisiz kullanıcı iletişimi için Socket.IO kullanarak gerçek zamanlı sohbet işlevselliğini entegre ederek hem frontend hem de backend sistemlerini tasarladım.",
+                    "tech": [
+                        "Next.js",
+                        "Socket.IO",
+                        "Full-Stack",
+                        "Real-time Chat"
+                    ]
+                },
+                "turkcell": {
+                    "title": "Turkcell Dijital Dönüşüm",
+                    "description": "Müşteri şikayetleri modülüne odaklanarak Türkiye'nin en büyük dijital dönüşüm projelerinden birine katkıda bulundum. SCSS, mikroservis mimarisi ve Scrum metodolojisi ile kapsamlı bir şekilde çalışarak kurumsal ölçekli geliştirme uygulamalarında derin uzmanlık kazandım.",
+                    "tech": [
+                        "React",
+                        "SCSS",
+                        "Microservices",
+                        "Scrum",
+                        "Enterprise"
+                    ]
+                },
+                "w3m": {
+                    "title": "W3M Pazarlama Platformu",
+                    "description": "Bir Web3 pazarlama platformu için şık, tek sayfalık bir uygulama (SPA) landing page geliştirdim. Platformun değer önerisini etkili bir şekilde ileten modern, dönüşüm odaklı bir sunum oluşturmaya odaklandım.",
+                    "tech": [
+                        "React",
+                        "SPA",
+                        "Web3.js",
+                        "Landing Page"
+                    ]
+                },
+                "web3": {
+                    "title": "Web3 Merkeziyetsiz Uygulama",
+                    "description": "En kapsamlı projelerimden birinin tüm frontendini bağımsız olarak geliştirdim. Servis katmanları, Zustand durum yönetimi ve tam API entegrasyonu uygulayarak 50'den fazla sayfaya sahip, tamamen responsive, dinamik bir uygulama mimarisi tasarladım. Merkeziyetsiz web için üretime hazır, ölçeklenebilir bir çözüm sundum.",
+                    "tech": [
+                        "React",
+                        "Zustand",
+                        "Web3.js",
+                        "Solidity",
+                        "API Integration"
+                    ]
+                }
+            }
         },
         "responsive": {
             "title": "Tamamen Responsive Tasarım",
