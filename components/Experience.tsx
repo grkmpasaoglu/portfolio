@@ -27,9 +27,6 @@ export default function Experience() {
                     },
                     y: 50,
                     opacity: 0,
-                    duration: 0.8,
-                    delay: index * 0.1,
-                    ease: "power3.out",
                 });
             });
         }, containerRef);

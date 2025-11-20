@@ -22,8 +22,6 @@ export default function PerformanceShowcase() {
                 },
                 y: 50,
                 opacity: 0,
-                duration: 1,
-                ease: "power3.out",
             });
 
             // Animate lighthouse image
@@ -34,8 +32,6 @@ export default function PerformanceShowcase() {
                 },
                 x: -100,
                 opacity: 0,
-                duration: 1.2,
-                ease: "power3.out",
             });
 
             // Animate description text
@@ -46,8 +42,6 @@ export default function PerformanceShowcase() {
                 },
                 x: 100,
                 opacity: 0,
-                duration: 1.2,
-                ease: "power3.out",
             });
         }, containerRef);
 

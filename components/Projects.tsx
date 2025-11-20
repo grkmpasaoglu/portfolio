@@ -28,9 +28,6 @@ export default function Projects() {
                     },
                     y: 100,
                     opacity: 0,
-                    duration: 1,
-                    delay: index * 0.1,
-                    ease: "power3.out",
                 });
             });
         }, containerRef);
