@@ -94,7 +94,7 @@ export default function Hero() {
                         </p>
 
                         <a
-                            href={`/cv/cv-${useLocale()}.pdf`}
+                            href={`/cv/GP-${useLocale()}.pdf`}
                             download="Gorkem_Pasaoglu_CV.pdf"
                             className="group relative inline-flex items-center gap-2 px-8 py-3 bg-white text-black rounded-full font-bold text-lg mb-12 hover:bg-blue-50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]"
                         >
