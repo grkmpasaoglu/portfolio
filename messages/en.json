@@ -3,7 +3,7 @@
         "title": "Gorkem Pasaoglu",
         "hero": {
             "greeting": "Hello, I'm",
-            "name": "Gorkem Pasaoglu",
+            "name": "Görkem Paşaoğlu",
             "role": "Computer Engineer & Frontend Developer",
             "roles": [
                 "Computer Engineer",
@@ -20,7 +20,7 @@
             },
             "skills": {
                 "title": "Skills",
-                "list": "JavaScript, TypeScript, React, NodeJS, NextJS, Tailwind CSS, Git, MsSQL"
+                "list": "JavaScript, TypeScript, React, React Native, NextJS, Node.JS, .NET, Strapi CMS, REST API, Socket, Redux, Zustand, CMS, TailwindCSS, Bootstrap, SCSS, Framer, GSAP, Radix, Apex, Ant, Shadcn, Git, GitHub, GitLab, MsSQL, Docker, Postman, Swagger, GitBook, Docusaurus, Ubuntu, Nginx Configuration, SSL/Certbot, PM2, Git/GitHub Actions, Three.js, Framer Motion"
             }
         },
         "nav": {
@@ -87,6 +87,16 @@
                         "Admin Dashboard"
                     ]
                 },
+                "bh": {
+                    "title": "Bulut Law Firm",
+                    "description": "A corporate website designed exclusively for a law firm and its experienced team of attorneys. Developed fully responsive, this project elegantly showcases the firm's legal services, expertise, and vision with a prestigious digital presence.",
+                    "tech": [
+                        "Next.js",
+                        "Tailwind CSS",
+                        "Corporate Web",
+                        "Responsive Design"
+                    ]
+                },
                 "businness-island": {
                     "title": "Business Island Real Estate Platform",
                     "description": "Built a fully responsive real estate presentation website with sophisticated Framer Motion effects. Implemented a comprehensive component library including cards, tables, accordions, and custom UI elements to deliver a premium user experience.",
@@ -107,6 +117,16 @@
                         "Documentation"
                     ]
                 },
+                "ea": {
+                    "title": "Elifinarts - Modern Art Gallery",
+                    "description": "A fully automated and customized e-commerce platform built for an artist to showcase and sell hand-crafted paintings. Designed with a Stripe-based CMS, it seamlessly integrates robust sales and payment systems while delivering a flawlessly responsive experience across all devices.",
+                    "tech": [
+                        "Next.js",
+                        "Stripe CMS",
+                        "E-Commerce",
+                        "Payment Integration"
+                    ]
+                },
                 "luna": {
                     "title": "Luna Admin Platform",
                     "description": "Independently developed the complete frontend architecture including admin panel and dashboard. Handled all API integrations end-to-end, delivering a fully functional, production-ready administrative interface.",
@@ -115,6 +135,16 @@
                         "Node.js",
                         "API Integration",
                         "Dashboard"
+                    ]
+                },
+                "mp": {
+                    "title": "Model Pazarım",
+                    "description": "An end-to-end comprehensive platform I developed entirely solo, dedicated to model vehicle enthusiasts. The system allows users to list vehicles for sale or trade, featuring full-stack development with a responsive UI, robust backend, and live chat using Socket.IO. It also includes rich content modules like blogs, news, and competitions.",
+                    "tech": [
+                        "Next.js",
+                        "Node.js",
+                        "Socket.IO",
+                        "Full-Stack"
                     ]
                 },
                 "newsapp": {
@@ -184,6 +214,16 @@
                         "Socket.IO",
                         "Full-Stack",
                         "Real-time Chat"
+                    ]
+                },
+                "soa": {
+                    "title": "SOA - Save Our Animals Platform",
+                    "description": "A comprehensive platform specially developed for an animal protection society, digitalizing the donation and rescue processes. Designed an end-to-end system that allows users to report animals in need, provides directions to nearby veterinary clinics, and enables secure donations through PayPal integration.",
+                    "tech": [
+                        "Next.js",
+                        "PayPal API",
+                        "Donation System",
+                        "Platform"
                     ]
                 },
                 "turkcell": {

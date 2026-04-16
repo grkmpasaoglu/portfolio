@@ -14,7 +14,7 @@ export default function HomePage() {
             <ResponsiveShowcase />
             <PerformanceShowcase />
             <Projects />
-            <GsapCTA />
+            {/* <GsapCTA /> */}
             <Footer />
         </main>
     );

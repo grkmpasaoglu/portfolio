@@ -17,6 +17,15 @@ export const projects = [
     ]
   },
   {
+    slug: "bh",
+    coverImage: "/projects/bh/bh0.png",
+    images: [
+      "/projects/bh/bh0.png",
+      "/projects/bh/bh1.png",
+      "/projects/bh/bh2.png"
+    ]
+  },
+  {
     slug: "businness-island",
     coverImage: "/projects/businness-island/businness-island-1.png",
     images: [
@@ -36,6 +45,16 @@ export const projects = [
     ]
   },
   {
+    slug: "ea",
+    coverImage: "/projects/ea/ea0.png",
+    images: [
+      "/projects/ea/ea0.png",
+      "/projects/ea/ea2.png",
+      "/projects/ea/ea3.png",
+      "/projects/ea/ea4.png"
+    ]
+  },
+  {
     slug: "luna",
     coverImage: "/projects/luna/luna-1.png",
     images: [
@@ -43,6 +62,16 @@ export const projects = [
       "/projects/luna/luna-2.png",
       "/projects/luna/luna-3.png",
       "/projects/luna/luna-4.png"
+    ]
+  },
+  {
+    slug: "mp",
+    coverImage: "/projects/mp/mp0.png",
+    images: [
+      "/projects/mp/mp0.png",
+      "/projects/mp/mp1.png",
+      "/projects/mp/mp2.png",
+      "/projects/mp/mp3.png"
     ]
   },
   {
@@ -112,6 +141,17 @@ export const projects = [
       "/projects/sh/sh-2.png",
       "/projects/sh/sh-3.png",
       "/projects/sh/sh-4.png"
+    ]
+  },
+  {
+    slug: "soa",
+    coverImage: "/projects/soa/soa0.png",
+    images: [
+      "/projects/soa/soa0.png",
+      "/projects/soa/soa1.png",
+      "/projects/soa/soa2.png",
+      "/projects/soa/soa3.png",
+      "/projects/soa/soa5.png"
     ]
   },
   {

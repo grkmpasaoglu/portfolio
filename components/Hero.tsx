@@ -82,9 +82,9 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 mb-16">
           {/* Text Content */}
           <div className="flex-1 text-center lg:text-left">
-            <h2 className="hero-text text-xl md:text-2xl font-medium text-blue-400 mb-4 tracking-wide uppercase">
+            {/* <h2 className="hero-text text-xl md:text-2xl font-medium text-blue-400 mb-4 tracking-wide uppercase">
               {t("greeting")}
-            </h2>
+            </h2> */}
             <h1 className="hero-text text-5xl md:text-8xl font-bold tracking-tighter mb-6 pb-2 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50">
               {t("name")}
             </h1>
@@ -165,7 +165,7 @@ export default function Hero() {
                 {t("skills.title")}
               </h3>
             </div>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 h-32 overflow-y-auto">
               {t("skills.list")
                 .split(", ")
                 .map((skill) => (
@@ -179,12 +179,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
       </div>
 
-      <div className="scroll-indicator absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500">
-        <span className="text-xs uppercase tracking-widest">Scroll</span>
-        <ArrowDown className="w-5 h-5 animate-bounce" />
-      </div>
     </section>
   );
 }
