@@ -57,19 +57,18 @@ export default function ResponsiveShowcase() {
     return (
         <section
             ref={containerRef}
-            className="w-full min-h-screen py-20 px-6 bg-gradient-to-b from-[#050505] to-[#0a0a0a] relative overflow-hidden"
+            className="w-full py-24 sm:py-32 px-6 sm:px-8 bg-canvas-deep border-t border-line relative overflow-hidden"
         >
             {/* Background decoration */}
-            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+            <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#ff5a2b0d] rounded-full blur-3xl" />
 
             <div className="max-w-7xl mx-auto relative z-10">
                 {/* Heading */}
-                <div className="responsive-heading text-center mb-20">
-                    <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                <div className="responsive-heading text-center mb-16 sm:mb-20">
+                    <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold text-ink mb-6 tracking-tight">
                         {t("title")}
                     </h2>
-                    <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+                    <p className="text-lg sm:text-xl text-muted max-w-3xl mx-auto">
                         {t("description")}
                     </p>
                 </div>
@@ -78,7 +77,7 @@ export default function ResponsiveShowcase() {
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
                     {/* Left: Image (3 columns) */}
                     <div className="lg:col-span-3 responsive-image group">
-                        <div className="relative rounded-2xl overflow-hidden  p-6 hover:border-white/20 transition-all duration-500 shadow-2xl">
+                        <div className="relative rounded-2xl overflow-hidden border border-line p-6 hover:border-line-strong transition-all duration-500">
                             <div className="rounded-xl overflow-hidden">
                                 <img
                                     src="/responsive-images/4.png"
@@ -93,30 +92,30 @@ export default function ResponsiveShowcase() {
                     <div className="lg:col-span-2 responsive-text space-y-8">
                         <div>
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="p-3 rounded-xl bg-blue-500/10 border border-blue-500/20">
-                                    <Monitor className="w-6 h-6 text-blue-400" />
+                                <div className="p-3 rounded-xl bg-accent-dim border border-line">
+                                    <Monitor className="w-6 h-6 text-accent" />
                                 </div>
-                                <h3 className="text-2xl font-bold text-white">{t("desktop")}</h3>
+                                <h3 className="font-display text-2xl font-semibold text-ink">{t("desktop")}</h3>
                             </div>
-                            <p className="text-gray-400 leading-relaxed">
+                            <p className="text-muted leading-relaxed">
                                 {t("desktopDesc")}
                             </p>
                         </div>
 
                         <div>
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="p-3 rounded-xl bg-purple-500/10 border border-purple-500/20">
-                                    <Smartphone className="w-6 h-6 text-purple-400" />
+                                <div className="p-3 rounded-xl bg-accent-dim border border-line">
+                                    <Smartphone className="w-6 h-6 text-accent" />
                                 </div>
-                                <h3 className="text-2xl font-bold text-white">{t("mobile")}</h3>
+                                <h3 className="font-display text-2xl font-semibold text-ink">{t("mobile")}</h3>
                             </div>
-                            <p className="text-gray-400 leading-relaxed">
+                            <p className="text-muted leading-relaxed">
                                 {t("mobileDesc")}
                             </p>
                         </div>
 
-                        <div className="pt-6 border-t border-white/10">
-                            <p className="text-gray-300 leading-relaxed">
+                        <div className="pt-6 border-t border-line">
+                            <p className="text-muted leading-relaxed">
                                 {t("bottomText")}
                             </p>
                         </div>

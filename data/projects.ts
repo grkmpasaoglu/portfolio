@@ -1,4 +1,13 @@
-export const projects = [
+export type ProjectDeviceType = "web" | "mobile";
+
+export interface Project {
+  slug: string;
+  coverImage: string;
+  images: string[];
+  deviceType?: ProjectDeviceType;
+}
+
+export const projects: Project[] = [
   {
     slug: "3d",
     coverImage: "/projects/3d/3d-1.png",
@@ -18,11 +27,11 @@ export const projects = [
   },
   {
     slug: "bh",
-    coverImage: "/projects/bh/bh0.png",
+    coverImage: "/projects/bh/bh-1.png",
     images: [
-      "/projects/bh/bh0.png",
-      "/projects/bh/bh1.png",
-      "/projects/bh/bh2.png"
+      "/projects/bh/bh-1.png",
+      "/projects/bh/bh-2.png",
+      "/projects/bh/bh-3.png"
     ]
   },
   {
@@ -46,12 +55,12 @@ export const projects = [
   },
   {
     slug: "ea",
-    coverImage: "/projects/ea/ea0.png",
+    coverImage: "/projects/ea/ea-1.png",
     images: [
-      "/projects/ea/ea0.png",
-      "/projects/ea/ea2.png",
-      "/projects/ea/ea3.png",
-      "/projects/ea/ea4.png"
+      "/projects/ea/ea-1.png",
+      "/projects/ea/ea-2.png",
+      "/projects/ea/ea-3.png",
+      "/projects/ea/ea-4.png"
     ]
   },
   {
@@ -66,17 +75,18 @@ export const projects = [
   },
   {
     slug: "mp",
-    coverImage: "/projects/mp/mp0.png",
+    coverImage: "/projects/mp/mp-1.png",
     images: [
-      "/projects/mp/mp0.png",
-      "/projects/mp/mp1.png",
-      "/projects/mp/mp2.png",
-      "/projects/mp/mp3.png"
+      "/projects/mp/mp-1.png",
+      "/projects/mp/mp-2.png",
+      "/projects/mp/mp-3.png",
+      "/projects/mp/mp-4.png"
     ]
   },
   {
     slug: "newsapp",
     coverImage: "/projects/newsapp/newsapp-1.png",
+    deviceType: "mobile",
     images: [
       "/projects/newsapp/newsapp-1.png",
       "/projects/newsapp/newsapp-2.png",
@@ -145,13 +155,12 @@ export const projects = [
   },
   {
     slug: "soa",
-    coverImage: "/projects/soa/soa0.png",
+    coverImage: "/projects/soa/soa-1.png",
     images: [
-      "/projects/soa/soa0.png",
-      "/projects/soa/soa1.png",
-      "/projects/soa/soa2.png",
-      "/projects/soa/soa3.png",
-      "/projects/soa/soa5.png"
+      "/projects/soa/soa-1.png",
+      "/projects/soa/soa-2.png",
+      "/projects/soa/soa-3.png",
+      "/projects/soa/soa-5.png"
     ]
   },
   {
@@ -180,6 +189,39 @@ export const projects = [
       "/projects/web3/web3-2.png",
       "/projects/web3/web3-3.png",
       "/projects/web3/web3-4.png"
+    ]
+  },
+  {
+    slug: "sy",
+    coverImage: "/projects/sy/sy-1.png",
+    images: [
+      "/projects/sy/sy-1.png",
+      "/projects/sy/sy-2.png",
+      "/projects/sy/sy-3.png",
+      "/projects/sy/sy-4.png"
+    ]
+  },
+  {
+    slug: "htc",
+    coverImage: "/projects/htc/htc-1.png",
+    images: [
+      "/projects/htc/htc-1.png",
+      "/projects/htc/htc-2.png",
+      "/projects/htc/htc-3.png",
+      "/projects/htc/htc-4.png",
+      "/projects/htc/htc-5.png"
+    ]
+  },
+  {
+    slug: "mpm",
+    coverImage: "/projects/mpm/mpm-1.png",
+    deviceType: "mobile",
+    images: [
+      "/projects/mpm/mpm-1.png",
+      "/projects/mpm/mpm-2.png",
+      "/projects/mpm/mpm-3.png",
+      "/projects/mpm/mpm-4.png",
+      "/projects/mpm/mpm-5.png"
     ]
   }
 ];

@@ -12,6 +12,15 @@
             ],
             "bio": "1999 yılında Ankara'da doğdum. İlkokul ve lise eğitimimi burada tamamladım. Kırıkkale Üniversitesi Bilgisayar Mühendisliği bölümünden 3.20 GPA ve <bold>bölüm üçüncülüğü</bold> ile mezun oldum.",
             "downloadCV": "CV İndir",
+            "viewProjects": "Projeleri Gör",
+            "currentBadge": "Şu anda yeni fırsatlara açığım.",
+            "stats": {
+                "gpaValue": "3.20",
+                "gpaLabel": "Kırıkkale Üniversitesi Not Ortalaması",
+                "rankValue": "#3",
+                "rankLabel": "Bölüm Üçüncülüğü",
+                "projectsLabel": "Tamamlanan Proje"
+            },
             "education": {
                 "title": "Eğitim",
                 "school": "Kırıkkale Üniversitesi",
@@ -30,13 +39,14 @@
             "contact": "İletişim"
         },
         "experience": {
+            "eyebrow": "Kariyer Yolculuğu",
             "title": "Deneyim",
             "items": {
                 "carna": {
-                    "role": "Frontend Developer",
+                    "role": "Full-Stack Developer",
                     "company": "Carna Digital",
-                    "period": "2024 - Devam Ediyor",
-                    "description": "Carna Digital bünyesinde Frontend Developer olarak görev alıyorum. Büyük ölçekli projelerin geliştirilmesinde aktif rol oynayarak, modern web teknolojileri ile kullanıcı odaklı, yüksek performanslı ve ölçeklenebilir arayüzler inşa ediyorum. Native teknolojiler ve gerektiğinde Node.js ile backend süreçlerine de katkı sağlayarak, uçtan uca çözümler üretiyorum."
+                    "period": "2024 - 2026",
+                    "description": "Carna Digital bünyesinde Full-Stack Developer olarak görev alıyorum. Büyük ölçekli projelerin geliştirilmesinde aktif rol oynayarak, modern web teknolojileri ile kullanıcı odaklı, yüksek performanslı ve ölçeklenebilir arayüzler inşa ediyorum. Native teknolojiler ve gerektiğinde Node.js ile backend süreçlerine de katkı sağlayarak, uçtan uca çözümler üretiyorum."
                 },
                 "freelance": {
                     "role": "React Developer",
@@ -65,7 +75,17 @@
             }
         },
         "projects": {
+            "eyebrow": "Seçilmiş Çalışmalar",
             "title": "Projeler",
+            "intro": "Kurumsal sistemlerden bağımsız yan projelere kadar tasarladığım ve geliştirdiğim ürün, platform ve arayüzlerden bir seçki.",
+            "viewAll": "Tüm Projeleri Gör",
+            "showLess": "Daha Az Göster",
+            "backToProjects": "Tüm Projeler",
+            "techStackLabel": "Teknolojiler",
+            "aboutLabel": "Proje Hakkında",
+            "prevProject": "Önceki",
+            "nextProject": "Sonraki",
+            "swipeHint": "Ekran görüntüleri arasında kaydırın",
             "items": {
                 "3d": {
                     "title": "3D Otomotiv Vitrini",
@@ -257,6 +277,36 @@
                         "Solidity",
                         "API Integration"
                     ]
+                },
+                "sy": {
+                    "title": "Servis Yakın — Beyaz Eşya ve Ev Aletleri Servisi",
+                    "description": "Ankara'da kombi, beyaz eşya, klima ve elektronik cihaz tamiri yapan bir müşterim için uçtan uca kurumsal bir servis sitesi tasarladım ve geliştirdim. Sitenin tüm kurgusu, adında zaten saklı olan vaadin üzerine kuruldu: 'Servis Yakın' — arızası olan, çaresiz kalmış bir kullanıcıyı arama sonucundan gerçek bir teknisyene en az adımda ulaştırmak. Telefon numarası ve 'Servis Talep' butonu sitenin her noktasında sabit tutularak dönüşüm önceliklendirildi; kombi, beyaz eşya, klima ve elektronik servisleri ayrı kategorilere bölünerek kullanıcı hangi arızayla geldiyse saniyeler içinde doğru hizmete ulaşabiliyor. Her hizmet için ayrı, detaylı alt sayfalar kurguladım — buzdolabı servisinde soğutma sistemi onarımından gaz kaçağı tespitine, kapak contası değişiminden No-Frost arızalarına kadar somut başlıklar listeleyerek hem ziyaretçiye güven verdim hem de arama motorlarının sayfayı zengin, anahtar kelime bakımından güçlü içerikle indekslemesini sağladım. Sıkça Sorulan Sorular bölümüyle fiyatlandırma, aynı gün servis imkanı, marka kapsamı ve yedek parça süreleri gibi telefonu kapattıracak soruları daha formu doldurmadan yanıtlayarak hem güven inşa ettim hem de destek ekibinin yükünü azalttım. Tasarımın tamamını mobil öncelikli kurguladım, çünkü elinde arızalı bir cihazla arama yapan kullanıcıların büyük çoğunluğu telefonundan geliyor; KVKK uyumlu çerez bildirimiyle yasal tarafı da eksiksiz bıraktım.",
+                    "tech": [
+                        "Next.js",
+                        "Tailwind CSS",
+                        "Yerel SEO",
+                        "Responsive Design"
+                    ]
+                },
+                "htc": {
+                    "title": "HTC Restaurant & Catering",
+                    "description": "Ankara'da hizmet veren HTC Restaurant & Catering için hem müşteri karşısındaki vitrin sitesini hem de mutfağın günlük operasyonunu yöneten özel bir yönetim panelini sıfırdan tasarlayıp geliştirdim. Ziyaretçi tarafında günlük menü, haftalık menü ve kurumsal catering/toplu yemek hizmetleri ayrı sayfalarda; her yemek malzemesi ve fiyatıyla birlikte sıcak, editoryal bir restoran kimliği içinde sunuluyor. İşin asıl emek verilen kısmı perde arkasında: işletme sahibinin tek bir satır kod yazmadan yönetebileceği bir CMS kurguladım. Yemekler, kategoriler ve fiyatlar tek merkezden yönetiliyor; her kategoriye (et, tavuk, sebze, bakliyat, çorba, tatlı ve benzeri) bir varsayılan fiyat tanımlanıyor ve o kategoriye eklenen tüm yemekler bu fiyatı otomatik alıyor, istenirse yemek bazında özel fiyat da girilebiliyor. En sevdiğim özellik Menü Takvimi: işletme sahibi takvimden bir güne tıklayıp o günün yemeklerini seçtiği anda, ek bir yayınlama adımına gerek kalmadan değişiklik canlı sitede anında görünüyor. Sabit paket menüler de (Et Menü, Tavuk Menü, Bakliyat Menü gibi) seçilen kategorilere göre otomatik oluşturuluyor, yani kimse her sabah elle yeni bir menü kurmak zorunda kalmıyor. Günün ya da haftanın menüsünü sosyal medyada paylaşılabilecek hazır bir görsele dönüştüren bir Menü Görseli Oluştur aracını da ekledim. Üstüne, restoranın kurumsal yemek kartı entegrasyonlarını (Pluxee, Multinet, Setcard, Metropol, Ticket) ana sayfada öne çıkararak kurumsal müşterilere ekstra güven verdim. Ortaya, gerçek bir mutfağın günlük temposuna gerçekten ayak uydurabilen, hem müşteri hem işletme tarafında iş yükünü azaltan uçtan uca bir restoran platformu çıktı.",
+                    "tech": [
+                        "Next.js",
+                        "Node.js",
+                        "Tailwind CSS",
+                        "Admin Dashboard"
+                    ]
+                },
+                "mpm": {
+                    "title": "Model Pazarım — Mobil Uygulama",
+                    "description": "Model Pazarım'ın web platformunu tek başıma hayata geçirdikten sonra, aynı topluluğa cebinden erişebileceği native bir deneyim sunmak için mobil uygulamasını da sıfırdan tasarlayıp geliştirdim. Uygulama, web sürümünün tüm gücünü — ilan verme, alım-satım, canlı mesajlaşma — cebe taşırken, tamamen mobile özgü bir sosyal katman da ekliyor: kullanıcı profillerinde toplam ilan sayısı, ortalama puan ve öne çıkarma hakları görünüyor, koleksiyonerler kendi 'Showroom'larını oluşturup en sevdikleri parçaları vitrine çıkarabiliyor, arkadaş davet sistemiyle topluluk organik olarak büyüyor. Vitrin ekranında binlerce Hot Wheels, Matchbox ve Majorette modeli fiyat ve konum bilgisiyle akıcı bir grid'de listeleniyor; her ilanın kendi detay sayfasında ilan numarası, konum, tarih, durum, marka ve paket türü gibi yapılandırılmış bilgiler yer alıyor ve alıcı satıcıyla tek dokunuşla doğrudan mesajlaşmaya başlayabiliyor. Sosyal tarafı güçlendirmek için gerçek zamanlı bir Forum modülü kurguladım — kullanıcılar restock haberlerini ve kutu açılışlarını paylaşıyor, birbirlerinin gönderilerini oylayabiliyor ve yorum yapabiliyor — ayrıca editoryal bir Blog akışıyla yeni seri duyurularını ve piyasa haberlerini hashtag'lerle kategorize ederek topluluğa anında ulaştırıyorum. Tasarımdan state yönetimine, API entegrasyonundan bildirim ve mesajlaşma altyapısına kadar uygulamanın tüm katmanlarını tek başıma kurguladım; sonuç bir web sitesinin mobil uyarlaması değil, koleksiyonerlerin gerçekten cebinde taşıdığı bağımsız bir topluluk uygulaması oldu.",
+                    "tech": [
+                        "React Native",
+                        "Node.js",
+                        "Socket.IO",
+                        "API Integration"
+                    ]
                 }
             }
         },
@@ -272,9 +322,11 @@
         "performance": {
             "title": "Performans & SEO Mükemmelliği",
             "description": "Geliştirdiğim her projede web performansı, erişilebilirlik ve SEO en iyi uygulamalarına öncelik veriyorum. İşte son projelerimden birinin Google Lighthouse puanları.",
+            "lighthouseCaption": "Google Lighthouse Performans Raporu",
+            "seoCaption": "Model Pazarım — Google'da #1 Organik Sonuç, Tam Sitemap İndeksleme",
             "cardTitle": "Lighthouse Metrikleri",
             "cardDescription": "Bu puanlar, yüksek performanslı web uygulamaları geliştirme taahhüdümü yansıtıyor. Her metrik, modern web geliştirmenin kritik bir yönünü temsil eder: hızlı yüklenme süreleri, erişilebilir arayüzler, sektör en iyi uygulamaları ve arama motoru optimizasyonu.",
-            "bottomText": "Yüksek Lighthouse puanları elde etmek, hızlı, erişilebilir ve SEO açısından optimize edilmiş, olağanüstü kullanıcı deneyimleri sunan web uygulamaları geliştirme taahhüdümü gösterir."
+            "bottomText": "Yüksek Lighthouse puanları elde etmek, hızlı, erişilebilir ve SEO açısından optimize edilmiş, olağanüstü kullanıcı deneyimleri sunan web uygulamaları geliştirme taahhüdümü gösterir. Tek başıma geliştirip yönettiğim Model Pazarım, Google'da kendi adıyla yapılan aramada 1. sırada çıkıyor; tüm alt sayfaları ve sitemap'i eksiksiz indeksleniyor."
         },
         "gsapCTA": {
             "badge": "İnteraktif Animasyonlar",

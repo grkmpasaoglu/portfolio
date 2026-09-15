@@ -24,20 +24,20 @@ export default function LanguageSwitcher() {
         <div className="relative">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center gap-2 px-3 py-2 rounded-full bg-white/5 hover:bg-white/10 transition-all border border-white/10 backdrop-blur-md"
+                className="flex items-center gap-2 px-3 py-2 rounded-full bg-canvas-soft hover:border-line-strong transition-all border border-line"
                 aria-label="Switch language"
             >
-                <Globe className="w-4 h-4 text-gray-300" />
-                <span className="text-sm font-medium text-gray-300 uppercase">{locale}</span>
+                <Globe className="w-4 h-4 text-muted" />
+                <span className="text-sm font-medium text-muted uppercase">{locale}</span>
             </button>
 
             {isOpen && (
-                <div className="absolute top-full right-0 mt-2 w-32 bg-[#111] border border-white/10 rounded-xl shadow-xl overflow-hidden z-50">
+                <div className="absolute top-full right-0 mt-2 w-32 bg-canvas-soft border border-line rounded-xl overflow-hidden z-50">
                     <button
                         onClick={() => toggleLanguage("tr")}
                         className={clsx(
-                            "w-full text-left px-4 py-2 text-sm hover:bg-white/5 transition-colors",
-                            locale === "tr" ? "text-white font-bold" : "text-gray-400"
+                            "w-full text-left px-4 py-2 text-sm hover:bg-[#ffffff0d] transition-colors",
+                            locale === "tr" ? "text-ink font-bold" : "text-muted"
                         )}
                     >
                         Türkçe
@@ -45,8 +45,8 @@ export default function LanguageSwitcher() {
                     <button
                         onClick={() => toggleLanguage("en")}
                         className={clsx(
-                            "w-full text-left px-4 py-2 text-sm hover:bg-white/5 transition-colors",
-                            locale === "en" ? "text-white font-bold" : "text-gray-400"
+                            "w-full text-left px-4 py-2 text-sm hover:bg-[#ffffff0d] transition-colors",
+                            locale === "en" ? "text-ink font-bold" : "text-muted"
                         )}
                     >
                         English

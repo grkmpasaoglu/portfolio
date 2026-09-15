@@ -12,6 +12,15 @@
             ],
             "bio": "Born in Ankara in 1999. Graduated from Kırıkkale University Computer Engineering department with a 3.20 GPA, <bold>ranking 3rd in the department</bold>.",
             "downloadCV": "Download CV",
+            "viewProjects": "View Projects",
+            "currentBadge": "Currently open to new opportunities",
+            "stats": {
+                "gpaValue": "3.20",
+                "gpaLabel": "GPA at Kırıkkale University",
+                "rankValue": "#3",
+                "rankLabel": "Rank in Department",
+                "projectsLabel": "Projects Shipped"
+            },
             "education": {
                 "title": "Education",
                 "school": "Kırıkkale University",
@@ -30,13 +39,14 @@
             "contact": "Contact"
         },
         "experience": {
+            "eyebrow": "Career Path",
             "title": "Experience",
             "items": {
                 "carna": {
-                    "role": "Frontend Developer",
+                    "role": "Full-Stack Developer",
                     "company": "Carna Digital",
-                    "period": "2024 - Present",
-                    "description": "I work as a Frontend Developer at Carna Digital. I play an active role in the development of large-scale projects, building user-centric, high-performance, and scalable interfaces using modern web technologies. I also contribute to backend processes with native technologies and Node.js when necessary, delivering end-to-end solutions."
+                    "period": "2024 - 2026",
+                    "description": "I work as a Full-Stack Developer at Carna Digital. I play an active role in the development of large-scale projects, building user-centric, high-performance, and scalable interfaces using modern web technologies. I also contribute to backend processes with native technologies and Node.js when necessary, delivering end-to-end solutions."
                 },
                 "freelance": {
                     "role": "React Developer",
@@ -65,7 +75,17 @@
             }
         },
         "projects": {
+            "eyebrow": "Selected Work",
             "title": "Projects",
+            "intro": "A collection of products, platforms and interfaces I've designed and built — from enterprise systems to solo side projects.",
+            "viewAll": "View All Projects",
+            "showLess": "Show Less",
+            "backToProjects": "All Projects",
+            "techStackLabel": "Technologies",
+            "aboutLabel": "About the Project",
+            "prevProject": "Previous",
+            "nextProject": "Next",
+            "swipeHint": "Swipe through the screens",
             "items": {
                 "3d": {
                     "title": "3D Automotive Showcase",
@@ -257,6 +277,36 @@
                         "Solidity",
                         "API Integration"
                     ]
+                },
+                "sy": {
+                    "title": "Servis Yakın — Home Appliance Repair Service",
+                    "description": "I designed and built a full corporate service website for a client running a home-appliance repair business in Ankara — boiler, white-goods, air-conditioning and electronics repair under one roof. The whole site is built around the promise baked into its name, \"Servis Yakın\" (\"Service Nearby\"): get a stressed customer with a broken fridge or a dead boiler from search result to a real technician in as few taps as possible. The phone number and a \"Request Service\" button stay visible at all times, services are split into clear categories — boiler, white goods, air conditioning, electronics — so visitors land on the exact fix they need within seconds, and each service has its own detail page listing concrete repair scenarios: refrigerant leak detection, thermostat and control-board replacement, No-Frost system faults, door-seal and fan-motor repairs. That level of specificity builds trust with visitors and gives search engines substantive, keyword-rich pages to index. A dedicated FAQ section pre-answers the questions that usually stall a phone call — pricing, same-day availability, brand coverage, spare-parts lead time — reducing hesitation and support load at the same time. Everything was built mobile-first, since most visitors are searching from their phone with a broken appliance sitting right in front of them, and a KVKK-compliant cookie notice keeps the legal side covered too.",
+                    "tech": [
+                        "Next.js",
+                        "Tailwind CSS",
+                        "Local SEO",
+                        "Responsive Design"
+                    ]
+                },
+                "htc": {
+                    "title": "HTC Restaurant & Catering",
+                    "description": "For HTC Restaurant & Catering in Ankara, I designed and built both the public-facing site and a custom admin panel that runs the kitchen's day-to-day operations. On the customer side, the daily menu, the weekly menu, and the corporate catering/bulk-meal service each live on their own page, with every dish presented with its ingredients and price inside a warm, editorial restaurant identity. The real engineering is behind the scenes: I built a CMS the owner can run without touching a line of code. Dishes, categories and prices are managed from one place — every category (meat, chicken, vegetable, legume, soup, dessert, and so on) carries a default price that automatically applies to every dish added to it, with the option to override the price per dish when needed. My favorite piece is the Menu Calendar: the owner clicks a day, picks that day's dishes, and the change goes live on the public site instantly, with no separate publish step. Fixed package menus (Meat Menu, Chicken Menu, Legume Menu, and so on) are assembled automatically from the selected categories, so nobody has to hand-build a new menu every morning. I even added a Menu Image Generator that turns the day's or week's menu into a ready-to-share graphic for social media. On top of that, I surfaced the restaurant's corporate meal-card integrations — Pluxee, Multinet, Setcard, Metropol, Ticket — right on the homepage to build trust with business customers. The result is an end-to-end restaurant platform that genuinely keeps pace with a real kitchen's daily rhythm, cutting workload for both the customer and the business.",
+                    "tech": [
+                        "Next.js",
+                        "Node.js",
+                        "Tailwind CSS",
+                        "Admin Dashboard"
+                    ]
+                },
+                "mpm": {
+                    "title": "Model Pazarım — Mobile App",
+                    "description": "After building the Model Pazarım web platform entirely on my own, I went on to design and build its native mobile app so the same community could carry it in their pocket. The app brings everything the web platform offers — listing vehicles, buying and selling, live messaging — into a native mobile experience, while layering on a social dimension built specifically for mobile: user profiles surface total listings, average rating and boost credits, collectors can curate their own \"Showroom\" to spotlight their favorite pieces, and a friend-invite system lets the community grow organically. The storefront screen presents thousands of Hot Wheels, Matchbox and Majorette models in a smooth, price- and location-tagged grid, and every listing opens into its own detail page with structured fields — listing number, location, date, status, brand, package type — letting a buyer message the seller directly in one tap. To strengthen the social layer, I built a real-time Forum where collectors share restock alerts and unboxings, upvote and comment on each other's posts, alongside an editorial Blog feed that pushes new-series announcements and market news to the community, organized with hashtags. I owned every layer myself — UI, state management, API integration, notifications and messaging infrastructure — end to end. The result isn't a mobile wrapper around a website; it's a standalone community app collectors genuinely carry in their pocket.",
+                    "tech": [
+                        "React Native",
+                        "Node.js",
+                        "Socket.IO",
+                        "API Integration"
+                    ]
                 }
             }
         },
@@ -272,9 +322,11 @@
         "performance": {
             "title": "Performance & SEO Excellence",
             "description": "I prioritize web performance, accessibility, and SEO best practices in every project I build. Here are the Google Lighthouse scores from one of my recent projects.",
+            "lighthouseCaption": "Google Lighthouse Performance Report",
+            "seoCaption": "Model Pazarım — #1 Organic Result, Full Sitemap Indexing",
             "cardTitle": "Lighthouse Metrics",
             "cardDescription": "These scores reflect my commitment to building high-performance web applications. Each metric represents a critical aspect of modern web development: fast loading times, accessible interfaces, industry best practices, and search engine optimization.",
-            "bottomText": "Achieving high Lighthouse scores demonstrates my commitment to building fast, accessible, and SEO-optimized web applications that deliver exceptional user experiences."
+            "bottomText": "Achieving high Lighthouse scores demonstrates my commitment to building fast, accessible, and SEO-optimized web applications that deliver exceptional user experiences. Model Pazarım, a platform I built and ran solo, ranks #1 on Google for its own name, with every subpage and its sitemap fully indexed."
         },
         "gsapCTA": {
             "badge": "Interactive Animations",
