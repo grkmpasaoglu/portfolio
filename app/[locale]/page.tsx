@@ -6,6 +6,7 @@ import Projects from '@/components/Projects';
 import GsapCTA from '@/components/GsapCTA';
 import Footer from '@/components/Footer';
 
+//1
 export default function HomePage() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
