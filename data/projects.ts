@@ -165,6 +165,29 @@ export const projects: Project[] = [
     ]
   },
   {
+    slug: "westwind-eisenbahn",
+    coverImage: "/projects/westwind-eisenbahn/1.png",
+    images: [
+      "/projects/westwind-eisenbahn/1.png",
+      "/projects/westwind-eisenbahn/2.png",
+      "/projects/westwind-eisenbahn/3.png",
+      "/projects/westwind-eisenbahn/4.png"
+    ]
+  },
+  {
+    slug: "sifiraltigucu",
+    coverImage: "/projects/sifiraltigucu/1.png",
+    images: [
+      "/projects/sifiraltigucu/1.png",
+      "/projects/sifiraltigucu/2.png",
+      "/projects/sifiraltigucu/3.png",
+      "/projects/sifiraltigucu/4.png",
+      "/projects/sifiraltigucu/5.png",
+      "/projects/sifiraltigucu/6.png",
+      "/projects/sifiraltigucu/7.png"
+    ]
+  },
+  {
     slug: "3d",
     coverImage: "/projects/3d/3d-1.png",
     images: [

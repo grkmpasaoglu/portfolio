@@ -4,10 +4,10 @@
         "hero": {
             "greeting": "Merhaba, Ben",
             "name": "Görkem Paşaoğlu",
-            "role": "Bilgisayar Mühendisi & Frontend Geliştirici",
+            "role": "Bilgisayar Mühendisi & Fullstack Geliştirici",
             "roles": [
                 "Bilgisayar Mühendisi",
-                "Frontend Geliştirici",
+                "Fullstack Geliştirici",
                 "Web Tasarımcı"
             ],
             "bio": "1999 yılında Ankara'da doğdum. İlkokul ve lise eğitimimi burada tamamladım. Kırıkkale Üniversitesi Bilgisayar Mühendisliği bölümünden 3.20 GPA ve <bold>bölüm üçüncülüğü</bold> ile mezun oldum.",
@@ -306,6 +306,26 @@
                         "Node.js",
                         "Socket.IO",
                         "API Integration"
+                    ]
+                },
+                "westwind-eisenbahn": {
+                    "title": "Westwind Ventures — Demiryolu Operasyonları",
+                    "description": "Almanya merkezli bir müşterim için, demiryolu yük taşımacılığında uzmanlaşmış bir personel hizmetleri şirketine yönelik dijital bir platform kurdum: tren işletmeciliği operasyonlarını takip eden bir takip sistemi ve şirketin herkese açık web sitesi — hepsi Next.js, React, Tailwind CSS ve Node.js ile. Web sitesi, şirketin Alman demiryolu sektörüne açılan yüzü. Tam ekran, atmosferik bir hero alanında yük lokomotifi öne çıkıyor; siyah zemin üzerinde altın rengi marka kimliği ve zarif serif tipografi premium, güven veren bir ton yaratıyor; her an görünür kalan 'Jetzt anfragen' (hemen talep et) butonu da talebe giden yolu tek tıklık mesafede tutuyor. Tüm deneyim demiryolu işletmecileri ve operatörleri için baştan sona Almanca kurgulandı: ekibin etrafında şekillenen bir 'Hakkımızda' bölümü, 7/24 ulaşılabilirlik, garanti edilen güvenilirlik, yüksek kalite standartları, önce güvenlik, hızlı ve sorunsuz süreçler ile ülke genelinde görev anlayışını anlatan altı maddelik bir 'Neden Westwind' bölümü ve açık lokomotif sürücüsü pozisyonunu çalışma şekli, vardiya modeli ve ücret, ek ödemeler, ulaşım ve ekipman başlıklarını kapsayan net bir avantaj tablosuyla sunan özel bir kariyer alanı. Sonuçta site hem müşterilere yönelik bir talep toplama aracı hem de sürücülere yönelik bir işe alım kanalı olarak çalışıyor. Web sitesinin yanı sıra müşterinin demiryolu operasyon takip sistemini de aynı teknoloji yığını üzerinde kurdum.",
+                    "tech": [
+                        "Next.js",
+                        "React",
+                        "Node.js",
+                        "Tailwind CSS"
+                    ]
+                },
+                "sifiraltigucu": {
+                    "title": "Sıfıraltı Gücü — Futbol Kulübü Web Sitesi",
+                    "description": "Sıfıraltı Gücü, 2024'te Ankara'da kurulan ve Golden Lig 3. Lig Ankara'da mücadele eden bir futbol kulübü; kulübün web sitesini sıfırdan ben geliştirdim. Amaç, maç gününün enerjisini ekrana taşımaktı: bordo-beyaz-altın renk paleti, ekranı dolduran kalın condensed başlıklar ve forma dokusundan ilham alan arka planlar kulübün kimliğini daha ilk saniyede hissettiriyor. Ana sayfa kulübün güncel durumunu tek bakışta özetliyor: son maçın skoru ve golcüleri, kulübün kendi satırının vurgulandığı puan durumu tablosu, son beş maçın galibiyet/mağlubiyet etiketleri ve bir sonuç bandı. 'Sahadaki 16' bölümü kadroyu forma numarası, mevki ve isimleriyle oyuncu kartları olarak sunuyor; her maç ise skor panosu, gol dakikaları, maçın yayını ve ilk 8'in saha şeması üzerindeki dizilişini içeren kendi Maç Merkezi sayfasına açılıyor. Fikstür listesi hükmen sonuçları ayrıca işaretliyor ve videosu bulunan maçları belirtiyor; maç raporları skor kaplamalı görsellerle bir haber akışına dönüşüyor, 'Yeni Sezon' vitrini ise forma, şort, yağmurluk, bere ve boyunluktan oluşan kulüp ürünlerini bento düzeniyle sergiliyor.",
+                    "tech": [
+                        "Next.js",
+                        "React",
+                        "Tailwind CSS",
+                        "Spor Platformu"
                     ]
                 }
             }

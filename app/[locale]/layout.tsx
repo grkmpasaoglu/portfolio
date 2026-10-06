@@ -21,7 +21,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-    title: "Görkem Paşaoğlu — Computer Engineer & Frontend Developer",
+    title: "Görkem Paşaoğlu — Computer Engineer & Fullstack Developer",
     description: "Frontend developer & computer engineer building fast, accessible, and highly interactive web experiences with React, Next.js, and modern web technologies.",
 };
 

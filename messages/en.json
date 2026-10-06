@@ -4,7 +4,7 @@
         "hero": {
             "greeting": "Hello, I'm",
             "name": "Görkem Paşaoğlu",
-            "role": "Computer Engineer & Frontend Developer",
+            "role": "Computer Engineer & Fullstack Developer",
             "roles": [
                 "Computer Engineer",
                 "Frontend Developer",
@@ -306,6 +306,26 @@
                         "Node.js",
                         "Socket.IO",
                         "API Integration"
+                    ]
+                },
+                "westwind-eisenbahn": {
+                    "title": "Westwind Ventures — Rail Operations",
+                    "description": "For a Germany-based client, I built a digital platform for a specialist rail-freight personnel provider: a rail operations tracking system together with the company's public website, all on Next.js, React, Tailwind CSS and Node.js. The website is the company's face to the German rail industry. A moody, full-bleed hero with a freight locomotive sets the tone, gold-on-black branding and elegant serif typography give it a premium, trustworthy voice, and a persistent 'Jetzt anfragen' (request now) call to action keeps the path to an enquiry one click away. The whole experience is written in German for railway undertakings and operators: an About section built around the team, a six-pillar 'Why Westwind' section covering round-the-clock availability, guaranteed reliability, top quality standards, safety first, fast and uncomplicated processes and nationwide deployment, and a dedicated careers area that presents the open locomotive-driver role with its employment type, shift model and a clear benefits grid covering pay, surcharges, travel and equipment. The result works as both a lead-generation tool for clients and a recruiting channel for drivers. Alongside the website, I also built the client's rail operations tracking system on the same stack.",
+                    "tech": [
+                        "Next.js",
+                        "React",
+                        "Node.js",
+                        "Tailwind CSS"
+                    ]
+                },
+                "sifiraltigucu": {
+                    "title": "Sıfıraltı Gücü — Football Club Website",
+                    "description": "Sıfıraltı Gücü is an Ankara football club founded in 2024 and competing in the Golden League's 3rd League Ankara, and I built its club website from the ground up. The goal was to carry the energy of match day onto the screen: a maroon, gold and white palette, huge condensed headlines and jersey-textured backgrounds make the club's identity felt within the first second. The homepage condenses the club's current state into a single glance: the latest result with its scorers, the league table with the club's own row highlighted, form chips for the last five games and a results ticker. A 'Sahadaki 16' carousel presents the squad as player cards with shirt numbers, positions and names, while every fixture opens into its own Match Center with a scoreboard, goal minutes, the match broadcast and the starting eight laid out on a pitch diagram. The fixtures list even marks forfeit results ('Hükmen') and flags the matches that have video, match reports turn into a news feed with score-overlay imagery, and a 'New Season' bento-style showcase presents the club's kit and merchandise: jersey, shorts, rain jacket, beanie and neck gaiter.",
+                    "tech": [
+                        "Next.js",
+                        "React",
+                        "Tailwind CSS",
+                        "Sports Platform"
                     ]
                 }
             }
