@@ -49,6 +49,7 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
     const t = useTranslations("HomePage.projects");
     const containerRef = useRef<HTMLDivElement>(null);
     const scrollerRef = useRef<HTMLDivElement>(null);
+    const stickyRef = useRef<HTMLDivElement>(null);
 
     const currentIndex = projects.findIndex((p) => p.slug === project.slug);
     const prevProject = projects[(currentIndex - 1 + projects.length) % projects.length];
@@ -85,6 +86,31 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
         return () => ctx.revert();
     }, [project.slug]);
 
+    useEffect(() => {
+        const el = stickyRef.current;
+        if (!el) return;
+
+        const TOP = 112;
+        const BOTTOM = 32;
+
+        // Panel fits the viewport: pin it at the top. Taller than the viewport: pin it by its
+        // bottom edge instead, so the whole text stays reachable with normal page scrolling.
+        const updateStickyTop = () => {
+            const fits = el.offsetHeight <= window.innerHeight - TOP - BOTTOM;
+            el.style.top = fits ? `${TOP}px` : `${window.innerHeight - el.offsetHeight - BOTTOM}px`;
+        };
+
+        updateStickyTop();
+        const observer = new ResizeObserver(updateStickyTop);
+        observer.observe(el);
+        window.addEventListener("resize", updateStickyTop);
+
+        return () => {
+            observer.disconnect();
+            window.removeEventListener("resize", updateStickyTop);
+        };
+    }, [project.slug]);
+
     return (
         <main ref={containerRef} className="min-h-screen bg-canvas-deep text-ink pt-32 pb-24">
             <div className="max-w-7xl mx-auto px-6 sm:px-8">
@@ -98,7 +124,7 @@ export default function ProjectDetailClient({ project }: { project: Project }) {
 
                 <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] xl:grid-cols-[420px_1fr] gap-10 lg:gap-14 items-start">
                     {/* Left: text column, sticky on desktop */}
-                    <div className="detail-header mb-4 lg:mb-0">
+                    <div ref={stickyRef} className="detail-header lg:sticky mb-4 lg:mb-0">
                         <div className="font-mono text-xs uppercase tracking-[0.2em] text-accent mb-5">
                             {String(currentIndex + 1).padStart(2, "0")} / {String(projects.length).padStart(2, "0")}
                         </div>
